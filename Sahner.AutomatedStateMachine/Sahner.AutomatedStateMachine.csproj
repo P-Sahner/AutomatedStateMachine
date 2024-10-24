@@ -4,6 +4,33 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Sahner.AutomatedStateMachine</Title>
+    <Company />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>P-Sahner</Authors>
+    <RepositoryUrl>https://github.com/P-Sahner/AutomatedStateMachine</RepositoryUrl>
+    <Description>This library provides an implementation of an asynchronous, deterministic state machine with support for transient states, automatic behavior and custom exception handling. It allows separating the control flow logic from the applications business logic. The state machine sequentially processes input symbols, transitions between states, and invokes automation functions of transient states.</Description>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <Version>1.0.0</Version>
+    <PackageId>Sahner.AutomatedStateMachine</PackageId>
+    <PackageIcon>Icon.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/P-Sahner/AutomatedStateMachine</PackageProjectUrl>
+    <PackageTags>automated state machine;transient state machine;async state machine;state machine;workflow;control flow;transient state;state autmaton;state;automation</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  
 </Project>
